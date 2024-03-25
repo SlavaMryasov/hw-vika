@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { ChangeEvent } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
@@ -43,6 +43,56 @@ function App() {
 // console.log(person.firstName)
 // console.log(person.lastName)
 // console.log(person.age)
+
+
+
+
+// const arr = ['katya', 'slava', 'dima', 'nastya']
+// console.log(arr)
+// arr.push('oleg')
+// console.log(arr)
+// arr.pop()
+// console.log(arr)
+// arr.unshift('oleg')
+// console.log(arr)
+// arr.shift()
+// console.log(arr)
+
+
+// type usersArray = {
+//   name: string
+//   age: number
+// }
+// let users: usersArray[] = [ 
+//   { name: 'Alice', age: 25 }, 
+//   { name: 'Bob', age: 20 }, 
+//   { name: 'Charlie', age: 22 }, 
+//  ]; 
+//  console.log(users.sort((a,b)=> a.age > b.age? 1: -1))
+// //  console.log(users.sort((a:number, b:number)=> a>b))
+
+
+// type eventsType = {
+//   name: string
+//   date: any
+// }
+// let events: eventsType[] = [ 
+//   { name: 'Event 1', date: new Date('2024-03-08T10:30:00') }, 
+//   { name: 'Event 2', date: new Date('2024-03-09T14:00:00') }, 
+//   { name: 'Event 3', date: new Date('2024-03-07T09:00:00') },  
+//  ]; 
+//  console.log(events.sort((a,b)=> a.date > b.date ? 1:-1))
+
+
+// let tasksString = 'Помыть посуду, Погулять с собакой, Сделать покупки'; 
+// console.log(tasksString.split(', '))
+
+
+let todoList1 = ['Покормить кота', 'Помыть посуду', 'Сделать уроки']; 
+let todoList2 = ['Погулять с собакой', 'Сходить в магазин', 'Позвонить маме']; 
+
+let todoList3 = todoList1.concat(todoList2)
+console.log(todoList3)
 
   return (
     <div className="App">
