@@ -88,15 +88,47 @@ function App() {
 // console.log(tasksString.split(', '))
 
 
-let todoList1 = ['Покормить кота', 'Помыть посуду', 'Сделать уроки']; 
-let todoList2 = ['Погулять с собакой', 'Сходить в магазин', 'Позвонить маме']; 
+// let todoList1 = ['Покормить кота', 'Помыть посуду', 'Сделать уроки']; 
+// let todoList2 = ['Погулять с собакой', 'Сходить в магазин', 'Позвонить маме']; 
+// let todoList3 = todoList1.concat(todoList2)
+// console.log(todoList3.map((t, i) => ++i+t))
 
-let todoList3 = todoList1.concat(todoList2)
-console.log(todoList3)
+
+// let users = [ 
+//   { id: 1, name: 'Alice', age: 28, isActive: true }, 
+//   { id: 2, name: 'Bob', age: 35, isActive: false }, 
+//   { id: 3, name: 'Charlie', age: 22, isActive: true }, 
+//   { id: 4, name: 'David', age: 40, isActive: true }, 
+//   { id: 5, name: 'Eva', age: 32, isActive: false }, 
+//  ]; 
+// console.log(users.filter(u => u.isActive))
+
+
+// let users = [ 
+//   { id: 1, name: 'Alice', age: 28, isActive: true }, 
+//   { id: 2, name: 'Bob', age: 35, isActive: false },  
+//   { id: 3, name: 'Charlie', age: 22, isActive: true },  
+//   { id: 4, name: 'David', age: 40, isActive: true }, 
+//   { id: 5, name: 'Eva', age: 32, isActive: false }, 
+//  ]; 
+//   console.log(users.find(u=>u.name==='Charlie'))
+
+
+//  let inventory = ['Футболка', 'Джинсы', 'Кроссовки', 'Рюкзак', 'Часы']; 
+// // let itemToCheck = 'Кроссовки'; 
+// // console.log(inventory.includes(itemToCheck), (itemToCheck ? `${itemToCheck} есть в наличии`: 'товара нет на складе'))
+// let itemCheck = 'Кроссовки'
+// let sneakers = inventory.indexOf(itemCheck)
+// console.log(sneakers === -1? 'товара нет на складе': `${itemCheck} есть в наличии`)
+
 
   return (
     <div className="App">
       
+      {/*44444444 <h3>Общий список задач</h3>
+      <ol>
+        {todoList3.map((t) => <li>{t}</li> )}
+      </ol> */}
     </div>
   );
 }
